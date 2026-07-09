@@ -1,0 +1,64 @@
+.paginaContato {
+  margin-top: 32px;
+  padding: 38px;
+
+  background: var(--fundo-card);
+  border: 1px solid var(--borda);
+  border-radius: 24px;
+}
+
+.paginaContato > div:first-child {
+  max-width: 720px;
+}
+
+.paginaContato > div:first-child p {
+  color: var(--primaria);
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.paginaContato h1 {
+  color: var(--texto);
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+
+.paginaContato span {
+  display: block;
+
+  color: var(--texto-suave);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.contatoCards {
+  margin-top: 32px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.contatoCards article {
+  padding: 22px;
+
+  background: rgba(5, 11, 18, 0.35);
+  border: 1px solid var(--borda);
+  border-radius: 18px;
+}
+
+.contatoCards strong {
+  display: block;
+
+  color: var(--texto);
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.contatoCards p {
+  color: var(--texto-suave);
+  font-size: 14px;
+  line-height: 1.5;
+}

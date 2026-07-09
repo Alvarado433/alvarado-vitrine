@@ -1,0 +1,26 @@
+.beneficios {
+  margin-top: 24px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.beneficios div {
+  padding: 22px;
+
+  background: var(--fundo-card);
+  border: 1px solid var(--borda);
+  border-radius: 16px;
+}
+.beneficios strong {
+  display: block;
+  color: var(--texto);
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.beneficios p {
+  color: var(--texto-suave);
+  font-size: 14px;
+  line-height: 1.5;
+}

@@ -1,0 +1,34 @@
+.whatsappFlutuante {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 100;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 14px 18px;
+
+  background: var(--whatsapp);
+  color: #ffffff;
+
+  border-radius: 999px;
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 800;
+
+  box-shadow: 0 12px 28px rgba(34, 197, 94, 0.28);
+  transition: 0.2s;
+}
+
+.whatsappFlutuante:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(34, 197, 94, 0.38);
+}
+
+.whatsappFlutuante svg {
+  font-size: 20px;
+}

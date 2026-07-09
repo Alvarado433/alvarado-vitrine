@@ -1,0 +1,77 @@
+.produtoDetalhe {
+  margin-top: 0;
+  padding: 32px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+
+  background: var(--fundo-card);
+  border: 1px solid var(--borda);
+  border-radius: 24px;
+}
+
+.produtoDetalheImagem {
+  height: 460px;
+
+  background: rgba(5, 11, 18, 0.45);
+  border: 1px solid var(--borda);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.produtoDetalheImagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.produtoDetalheInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.produtoDetalheInfo span {
+  color: var(--primaria);
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.produtoDetalheInfo h1 {
+  color: var(--texto);
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.produtoDetalheInfo strong {
+  color: var(--primaria);
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.produtoDetalheInfo p {
+  color: var(--texto-suave);
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+.voltarCatalogo {
+  display: inline-flex;
+  margin-top: 18px;
+  margin-bottom: 26px;
+
+  color: var(--texto-suave);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: 0.2s;
+}
+
+.voltarCatalogo:hover {
+  color: var(--primaria);
+}

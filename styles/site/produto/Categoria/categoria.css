@@ -1,0 +1,32 @@
+.categorias {
+  margin-top: 22px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.categorias button {
+  padding: 10px 16px;
+  border-radius: 999px;
+
+  background: rgba(13, 24, 36, 0.75);
+  border: 1px solid var(--borda);
+
+  color: var(--texto-suave);
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+.categorias button:hover {
+  color: var(--texto);
+  background: rgba(0, 245, 212, 0.08);
+  border-color: var(--primaria);
+}
+.categorias button.categoriaAtiva {
+  color: #050b12;
+  background: var(--primaria);
+  border-color: var(--primaria);
+}

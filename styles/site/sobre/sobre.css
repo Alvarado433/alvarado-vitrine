@@ -1,0 +1,64 @@
+.paginaSobre {
+  margin-top: 32px;
+  padding: 38px;
+
+  background: var(--fundo-card);
+  border: 1px solid var(--borda);
+  border-radius: 24px;
+}
+
+.sobreTexto {
+  max-width: 780px;
+}
+
+.sobreTexto p {
+  color: var(--primaria);
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.sobreTexto h1 {
+  color: var(--texto);
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+
+.sobreTexto span {
+  display: block;
+
+  color: var(--texto-suave);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.sobreCards {
+  margin-top: 32px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.sobreCards article {
+  padding: 22px;
+
+  background: rgba(5, 11, 18, 0.35);
+  border: 1px solid var(--borda);
+  border-radius: 18px;
+}
+
+.sobreCards strong {
+  display: block;
+
+  color: var(--texto);
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.sobreCards p {
+  color: var(--texto-suave);
+  font-size: 14px;
+  line-height: 1.5;
+}

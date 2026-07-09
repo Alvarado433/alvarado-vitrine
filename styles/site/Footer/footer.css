@@ -1,0 +1,64 @@
+.footer {
+  margin-top: 48px;
+  padding: 28px;
+
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 28px;
+
+  background: var(--fundo-card);
+  border: 1px solid var(--borda);
+  border-radius: 22px;
+}
+
+.footerMarca h2 {
+  color: var(--texto);
+  font-size: 26px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.footerMarca h2 span {
+  color: var(--primaria);
+}
+
+.footerMarca p {
+  color: var(--texto-suave);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerLinks a {
+  width: fit-content;
+
+  color: var(--texto-suave);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: 0.2s;
+}
+
+.footerLinks a:hover {
+  color: var(--primaria);
+}
+
+.footerContato strong {
+  display: block;
+
+  color: var(--texto);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footerContato p {
+  color: var(--texto-suave);
+  font-size: 14px;
+  line-height: 1.6;
+}

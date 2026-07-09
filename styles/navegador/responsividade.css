@@ -1,0 +1,723 @@
+/* =========================
+   TELAS MÉDIAS / NOTEBOOK
+========================= */
+
+@media (max-width: 1100px) {
+  .header {
+    gap: 18px;
+  }
+
+  .headerBusca {
+    width: 340px;
+  }
+
+  .produtoDetalhe {
+    grid-template-columns: 1fr;
+  }
+
+  .produtoDetalheImagem {
+    height: 380px;
+  }
+
+  .produtoDetalheInfo h1 {
+    font-size: 36px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footerMarca {
+    grid-column: 1 / -1;
+  }
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+  .pagina {
+    width: min(100%, 92%);
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .headerLogo {
+    width: 100%;
+  }
+
+  .headerBusca {
+    width: 100%;
+  }
+
+  .headerBusca input {
+    width: 100%;
+  }
+
+  .whatsappHeader {
+    width: 100%;
+  }
+
+  .menu {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .banner {
+    padding: 34px;
+  }
+
+  .banner h2 {
+    font-size: 38px;
+  }
+
+  .beneficios {
+    grid-template-columns: 1fr;
+  }
+
+  .produtosLista {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .footer {
+    margin-top: 42px;
+    padding: 26px;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .footerMarca {
+    grid-column: 1 / -1;
+  }
+}
+
+/* =========================
+   MOBILE GERAL
+========================= */
+
+@media (max-width: 650px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .pagina {
+    width: min(100%, 94%);
+    padding: 18px 0;
+  }
+
+  .header {
+    padding: 14px 0;
+    gap: 16px;
+  }
+
+  .headerLogo {
+    gap: 10px;
+  }
+
+  .headerLogo h1 {
+    font-size: 24px;
+  }
+
+  .headerLogo p {
+    font-size: 13px;
+  }
+
+  .headerLogo img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .headerBusca {
+    width: 100%;
+  }
+
+  .headerBusca input {
+    height: 44px;
+    font-size: 14px;
+  }
+
+  .whatsappHeader {
+    gap: 10px;
+  }
+
+  .whatsappHeader span {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+  }
+
+  .whatsappHeader strong {
+    font-size: 14px;
+  }
+
+  .whatsappHeader p {
+    font-size: 12px;
+  }
+
+  .menu {
+    width: 100%;
+    padding: 10px;
+    gap: 8px;
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+    scrollbar-width: none;
+  }
+
+  .menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .menuLink {
+    flex: 0 0 auto;
+    padding: 9px 13px;
+    font-size: 13px;
+  }
+
+  .banner {
+    margin-top: 18px;
+    padding: 28px 22px;
+    border-radius: 20px;
+  }
+
+  .banner p:first-child {
+    font-size: 14px;
+  }
+
+  .banner h2 {
+    font-size: 32px;
+  }
+
+  .banner h2 + p {
+    font-size: 15px;
+  }
+
+  .botaoBanner {
+    width: 100%;
+  }
+
+  .beneficios {
+    margin-top: 18px;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .beneficios div {
+    padding: 18px;
+  }
+
+  .produtos {
+    margin-top: 28px;
+  }
+
+  .produtosTopo h2 {
+    font-size: 28px;
+  }
+
+  .categorias {
+    gap: 8px;
+  }
+
+  .categorias button {
+    padding: 9px 13px;
+    font-size: 13px;
+  }
+
+  .produtosLista {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .cardProdutoImagem {
+    height: 230px;
+  }
+
+  .cardProdutoInfo {
+    padding: 16px;
+  }
+
+  .cardProdutoInfo h3 {
+    font-size: 20px;
+  }
+
+  .voltarCatalogo {
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  .produtoDetalhe {
+    padding: 22px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    border-radius: 20px;
+  }
+
+  .produtoDetalheImagem {
+    height: 320px;
+  }
+
+  .produtoDetalheInfo h1 {
+    font-size: 32px;
+  }
+
+  .produtoDetalheInfo strong {
+    font-size: 26px;
+  }
+
+  .produtoDetalheInfo p {
+    font-size: 15px;
+  }
+
+  .botaoWhatsAppProduto {
+    width: 100%;
+  }
+
+  .footer {
+    margin-top: 36px;
+    padding: 22px;
+
+    grid-template-columns: 1fr;
+    gap: 22px;
+
+    border-radius: 20px;
+  }
+
+  .footerMarca {
+    grid-column: auto;
+  }
+
+  .footerMarca h2 {
+    font-size: 24px;
+  }
+
+  .footerMarca p {
+    font-size: 14px;
+  }
+
+  .footerLinks {
+    gap: 9px;
+  }
+
+  .footerLinks a {
+    font-size: 14px;
+  }
+
+  .footerContato strong {
+    font-size: 15px;
+  }
+
+  .footerContato p {
+    font-size: 14px;
+  }
+
+  .whatsappFlutuante {
+    right: 18px;
+    bottom: 18px;
+
+    width: 56px;
+    height: 56px;
+    padding: 0;
+
+    border-radius: 50%;
+  }
+
+  .whatsappFlutuante span {
+    display: none;
+  }
+
+  .whatsappFlutuante svg {
+    font-size: 24px;
+  }
+}
+
+/* =========================
+   IPHONE PRO MAX / 430PX
+========================= */
+
+@media (max-width: 430px) {
+  .pagina {
+    width: min(100%, 92%);
+  }
+
+  .headerLogo h1 {
+    font-size: 23px;
+  }
+
+  .banner h2 {
+    font-size: 30px;
+  }
+
+  .produtoDetalheImagem {
+    height: 290px;
+  }
+
+  .produtoDetalheInfo h1 {
+    font-size: 30px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footerMarca h2 {
+    font-size: 23px;
+  }
+
+  .whatsappFlutuante {
+    right: 16px;
+    bottom: 16px;
+    width: 54px;
+    height: 54px;
+  }
+}
+
+/* =========================
+   IPHONE COMUM / 390PX
+========================= */
+
+@media (max-width: 390px) {
+  .pagina {
+    width: min(100%, 94%);
+  }
+
+  .headerLogo h1 {
+    font-size: 22px;
+  }
+
+  .headerLogo p {
+    font-size: 12px;
+  }
+
+  .headerLogo img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .menu {
+    padding: 9px;
+  }
+
+  .menuLink {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .banner {
+    padding: 24px 18px;
+  }
+
+  .banner h2 {
+    font-size: 28px;
+  }
+
+  .produtosTopo h2 {
+    font-size: 26px;
+  }
+
+  .cardProdutoImagem {
+    height: 210px;
+  }
+
+  .produtoDetalhe {
+    padding: 18px;
+  }
+
+  .produtoDetalheImagem {
+    height: 260px;
+  }
+
+  .produtoDetalheInfo h1 {
+    font-size: 28px;
+  }
+
+  .produtoDetalheInfo strong {
+    font-size: 24px;
+  }
+
+  .footer {
+    padding: 18px;
+    gap: 20px;
+  }
+
+  .footerMarca h2 {
+    font-size: 22px;
+  }
+
+  .footerMarca p,
+  .footerLinks a,
+  .footerContato p {
+    font-size: 13px;
+  }
+
+  .whatsappFlutuante {
+    width: 52px;
+    height: 52px;
+  }
+
+  .whatsappFlutuante svg {
+    font-size: 23px;
+  }
+}
+
+/* =========================
+   IPHONE PEQUENO / 375PX
+========================= */
+
+@media (max-width: 375px) {
+  .headerLogo h1 {
+    font-size: 21px;
+  }
+
+  .headerBusca input {
+    height: 42px;
+  }
+
+  .whatsappHeader strong {
+    font-size: 13px;
+  }
+
+  .whatsappHeader p {
+    font-size: 11px;
+  }
+
+  .banner h2 {
+    font-size: 26px;
+  }
+
+  .banner h2 + p {
+    font-size: 14px;
+  }
+
+  .categorias button {
+    padding: 8px 11px;
+    font-size: 12px;
+  }
+
+  .cardProdutoImagem {
+    height: 200px;
+  }
+
+  .produtoDetalheImagem {
+    height: 240px;
+  }
+
+  .botaoWhatsAppProduto {
+    padding: 13px 18px;
+    font-size: 14px;
+  }
+
+  .footerMarca h2 {
+    font-size: 21px;
+  }
+
+  .footerContato strong {
+    font-size: 14px;
+  }
+
+  .whatsappFlutuante {
+    right: 14px;
+    bottom: 14px;
+  }
+}
+
+/* =========================
+   CELULAR MUITO PEQUENO
+========================= */
+
+@media (max-width: 340px) {
+  .headerLogo h1 {
+    font-size: 19px;
+  }
+
+  .banner h2 {
+    font-size: 24px;
+  }
+
+  .produtosTopo h2 {
+    font-size: 24px;
+  }
+
+  .produtoDetalheInfo h1 {
+    font-size: 25px;
+  }
+
+  .produtoDetalheImagem {
+    height: 220px;
+  }
+
+  .footer {
+    padding: 16px;
+  }
+
+  .footerMarca h2 {
+    font-size: 20px;
+  }
+
+  .footerMarca p,
+  .footerLinks a,
+  .footerContato p {
+    font-size: 12px;
+  }
+
+  .whatsappFlutuante {
+    width: 50px;
+    height: 50px;
+  }
+
+  .whatsappFlutuante svg {
+    font-size: 22px;
+  }
+}
+/* =========================
+   CONTATO RESPONSIVO
+========================= */
+
+@media (max-width: 900px) {
+  .contatoCards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .paginaContato {
+    margin-top: 24px;
+    padding: 24px;
+    border-radius: 20px;
+  }
+
+  .paginaContato h1 {
+    font-size: 32px;
+  }
+
+  .paginaContato span {
+    font-size: 15px;
+  }
+
+  .contatoCards {
+    margin-top: 24px;
+    gap: 14px;
+  }
+
+  .contatoCards article {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .paginaContato {
+    padding: 20px;
+  }
+
+  .paginaContato h1 {
+    font-size: 28px;
+  }
+
+  .contatoCards p {
+    font-size: 13px;
+  }
+}
+/* =========================
+   SOBRE RESPONSIVO
+========================= */
+
+@media (max-width: 900px) {
+  .sobreCards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .paginaSobre {
+    margin-top: 24px;
+    padding: 24px;
+    border-radius: 20px;
+  }
+
+  .sobreTexto h1 {
+    font-size: 32px;
+  }
+
+  .sobreTexto span {
+    font-size: 15px;
+  }
+
+  .sobreCards {
+    margin-top: 24px;
+    gap: 14px;
+  }
+
+  .sobreCards article {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .paginaSobre {
+    padding: 20px;
+  }
+
+  .sobreTexto h1 {
+    font-size: 28px;
+  }
+
+  .sobreCards p {
+    font-size: 13px;
+  }
+}
+/* =========================
+   CATEGORIAS PAGE RESPONSIVO
+========================= */
+
+@media (max-width: 1100px) {
+  .categoriasGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .paginaCategorias {
+    margin-top: 24px;
+    padding: 24px;
+    border-radius: 20px;
+  }
+
+  .categoriasTexto h1 {
+    font-size: 32px;
+  }
+
+  .categoriasTexto span {
+    font-size: 15px;
+  }
+
+  .categoriasGrid {
+    margin-top: 24px;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .categoriaCard {
+    min-height: auto;
+    padding: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .paginaCategorias {
+    padding: 20px;
+  }
+
+  .categoriasTexto h1 {
+    font-size: 28px;
+  }
+
+  .categoriaCard p {
+    font-size: 13px;
+  }
+}

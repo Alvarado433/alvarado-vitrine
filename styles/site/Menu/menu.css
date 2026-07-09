@@ -1,0 +1,43 @@
+.menu {
+  margin-top: 18px;
+  padding: 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: rgba(13, 24, 36, 0.55);
+  border: 1px solid var(--borda);
+  border-radius: 16px;
+}
+
+.menuLink {
+  padding: 10px 16px;
+  border-radius: 999px;
+
+  color: var(--texto-suave);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+
+  border: 1px solid transparent;
+  transition: 0.2s;
+}
+
+.menuLink:hover {
+  color: var(--texto);
+  border: 1px solid var(--borda);
+  background: rgba(0, 245, 212, 0.08);
+}
+
+.menuLinkAtivo {
+  color: #050b12;
+  background: var(--primaria);
+  border-color: var(--primaria);
+}
+
+.menuLinkAtivo:hover {
+  color: #050b12;
+  background: var(--primaria);
+  border-color: var(--primaria);
+}

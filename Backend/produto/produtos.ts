@@ -1,0 +1,38 @@
+export const produtos = [
+  {
+    id: 1,
+    nome: "Camiseta Básica",
+    slug: "camiseta-basica",
+    categoria: "Roupas",
+    descricao: "Camiseta confortável para o dia a dia.",
+    preco: "R$ 49,90",
+    imagem: "/logo.png",
+  },
+  {
+    id: 2,
+    nome: "Cesta Presente",
+    slug: "cesta-presente",
+    categoria: "Presentes",
+    descricao: "Cesta especial para presentear.",
+    preco: "R$ 89,90",
+    imagem: "/logo.png",
+  },
+  {
+    id: 3,
+    nome: "Caneca Personalizada",
+    slug: "caneca-personalizada",
+    categoria: "Canecas",
+    descricao: "Caneca com arte personalizada.",
+    preco: "R$ 29,90",
+    imagem: "/logo.png",
+  },
+  {
+    id: 4,
+    nome: "Boné Premium",
+    slug: "bone-premium",
+    categoria: "Acessórios",
+    descricao: "Boné moderno com ajuste confortável.",
+    preco: "R$ 39,90",
+    imagem: "/logo.png",
+  },
+];

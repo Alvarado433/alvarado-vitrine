@@ -1,0 +1,16 @@
+.headerBusca {
+  width: 420px;
+}
+
+.headerBusca input {
+  width: 100%;
+  height: 42px;
+  padding: 0 16px;
+
+  background: rgba(13, 24, 36, 0.95);
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+
+  color: var(--texto);
+  outline: none;
+}
