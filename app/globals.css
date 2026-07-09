@@ -1,26 +1,20 @@
-@import "tailwindcss";
+@import "./../styles/navegador/reset.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import "./../styles/navegador/variables.css";
+@import "./../styles/site/body.css";
+@import "./../styles/site/header/header.css";
+@import "./../styles/site/header/busca.css";
+@import "./../styles/site/Menu/menu.css";
+@import "./../styles/site/Banner/banner.css";
+@import "./../styles/site/Botao/botao.css";
+@import "./../styles/site/beneficios/beneficio.css";
+@import "./../styles/site/produto/produto.css";
+@import "./../styles/site/produto/produto-detalhe.css";
+@import "./../styles/site/produto/Categoria/categoria.css";
+@import "./../styles/site/Footer/footer.css";
+@import "./../styles/site/Contato/contato.css";
+@import "./../styles/site/sobre/sobre.css";
+@import "./../styles/site/categorias/categorias.css";
+@import "./../styles/site/botaoflutuante/whatsapp-flutuante.css";
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@import "./../styles/navegador/responsividade.css";
