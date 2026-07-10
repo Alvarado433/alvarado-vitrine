@@ -9,7 +9,7 @@ export default function WhatsAppHeader() {
       </span>
 
       <div>
-        <strong>(11) 99999-9999</strong>
+        <strong>(11) 94951-6737</strong>
         <p>Atendimento via WhatsApp</p>
       </div>
     </div>
